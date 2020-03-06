@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #dbdbdb;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+}
+
+.header ul{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    float: right;
+    padding: 25px;
+}
+
+.header ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header li a:hover{
+    border-bottom: 2px solid #000000;
+}
+
+.header ul li:hover .sub1 {display:block}
+.header ul .sub1 {
+    display: none;
+    position:absolute;
+    left: 220px;
+    right: 50px;
+    top: 55px;
+    background-color: rgba(179, 179, 179, 0.7);
+}
+.sub1 a:hover { color:black }
+
+
+#container{
+    background-color: rgba(179, 179, 179, 0.7);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 30px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#Logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -120px;
+    box-shadow: 0px 0.5px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+#nama{
+    margin-top: -50px;
+    text-align: center;
+}
+
+#sub-nama{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 60%;
+    margin-left: 25%;
+}
+
+.judul{
+    width: 40%;
+}
+
+.titik{
+    width: 15%;
+}
+
+.isi{
+    width: 50%;
+}
+
+#sosial-media{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#facebook{
+    display: inline-block;
+    padding: 5px;
+    color: blue;
+}
+
+#instagram{
+    display: inline-block;
+    padding: 5px;
+    color: #c32aa3;
+}
+
+#youtube{
+    display: inline-block;
+    padding: 5px;
+    color: red;
+}
+
+#whatsapp{
+    display: inline-block;
+    padding: 5px;
+    color: #25d366;
+}
+
+#telegram{
+    display: inline-block;
+    padding: 5px;
+    color: rgb(2, 160, 252);
+}
+
+#alamat-rumah{
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.alamat iframe{
+    display: block;
+    margin: auto;
+    margin-left: 5%;
+}
+
+#container2{
+    background-color: rgba(179, 179, 179, 0.7);
+    margin-top: -33%;
+    margin-left: 53%;
+    margin-right: 65px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#table_2{
+    width: 90%;
+    margin-left: 20px;
+}
+
+.judul_d{
+    width: 25%;
+    padding: 5px;
+}
+
+.titik_d{
+    width: 5%;
+    padding: 5px;
+}
+
+.isi_d{
+    width: 50%;
+    padding: 5px;
+}
+
+#container3{
+    background-color: rgba(179, 179, 179, 0.7);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#biodata{
+    margin-top: -50px;
+    text-align: center;
+}
