@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komentar</title>
+
+    <style> 
+        body {
+          background-image: url("web.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+
+        #bjd{
+            margin-top: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        div {
+          width: 150px;
+          height: 75px;
+          background-color: red;
+          font-weight: bold;
+          position: relative;
+          animation: mymove 10s infinite;
+          color: black;
+        }
+        
+        #div1 {animation-timing-function: linear; text-align: center;}
+        #div2 {animation-timing-function: ease; text-align: center;}
+        #div3 {animation-timing-function: ease-in; text-align: center;}
+        #div4 {animation-timing-function: ease-out; text-align: center;}
+        #div5 {animation-timing-function: ease-in-out; text-align: center;}
+        
+        @keyframes mymove {
+          from {left: 0px;}
+          to {left: 300px;}
+        }
+    </style>
+</head>
+<body>
+    <h2 id="bjd">MAAF UNTUK HALAMAN INI BELUM BISA DILIHAT...</h2>
+
+    <div id="div1">Maaf</div>
+    <div id="div2">Halaman</div>
+    <div id="div3">Ini</div>
+    <div id="div4">Belum</div>
+    <div id="div5">Jadi...</div>
+</body>
+</html>
